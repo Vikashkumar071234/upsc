@@ -86,14 +86,12 @@ body {
     cursor: pointer;
 }
 
-
+/* navbar 2designing */
 .navbar2 {
-    height: 20vh;
-    display: flex;
+    height: 22vh;
+    display: flex;align-items: center;padding-left:40px
 }
-
-.navbar2 h1 {
-    margin-top: 60px;
+#uen {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -104,8 +102,8 @@ body {
 
 #ashok {
     width: 15vh;
-    margin-left: 50px;
-    margin-top: 10px
+    /* margin-left: 40px; */
+    margin-top: px
 }
 
 #ashok img {
@@ -114,7 +112,7 @@ body {
 
 #digitalindia {
     width: 28vh;
-    margin-left: 30vh
+    margin-left: 40vh
 }
 
 #digitalindia img {
@@ -123,22 +121,45 @@ body {
 
 #ajadila {
     width: 30vh;
-    margin-top: 5vh
+    
 }
 
 #ajadila img {
     width: 100%
 }
 
+/*navbar 2 end*/
+/*navbar3 start*/
 
 
 
 
 
+.activities{height:70vh;display:flex}
+.nav_menu_about{width:25%;padding-top:30px}
+#allabout{margin-left:60px;}
+#aboutupsc{font-weight: 800;font-size: 1.9rem;font-family: 'Source Sans Pro', sans-serif;color:#205786}
+#nav_menu_tw{display:flex;justify-content: space-between;align-items:center;}
+#people_logo{height:30px;margin-right:30px}
+#people_logo img{height:100%}
+
+.nav_menu_about ul{margin-top:15px;margin-left:10px;line-height: 33px;}
+.nav_menu_about ul li{color:rgb(219, 117, 44);font-family: 'lato', sans-serif;font-weight: 700;font-size: 1.1rem;}
+.nav_menu_about ul li a{text-decoration: none;color:black}
+.nav_menu_about ul li a:hover{text-decoration: none;color:blue;text-decoration:underline black;}
+
+.nav_menu_examination{background-color: aquamarine;width:25%;}
+#examlogo{height:50px}
+#examlogo img{height:100%}
 
 
+.nav_menu_recquirement{background-color: beige;width:25%}
+#reclogo{height:20px}
+#reclogo img{height:100%}
+.nav_menu_recquirement li{list-style:none}
+.nav_menu_recquirement li:before{content: '\00BB';}
 
-
+.all{background-color: darkgray;width:25%}
 
 
 .extrat {
