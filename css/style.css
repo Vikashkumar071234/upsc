@@ -571,9 +571,8 @@ body {
 /* Styling the area of the slides */
  .allslidei{background-color: #205786;height:500px;display:flex;}
 #vgh{width:43%;font-size: 1.1rem;}
-#upsl{height:88%;margin-left:20px}
+#upsl{height:88.7%;margin-left:20px}
 #vgh ul li a{color:white;text-decoration: none;font-family: 'lato', sans-serif;}
-
 #vgh ul li a:hover{text-decoration:underline;}
 
 #slideshow {
@@ -582,7 +581,8 @@ body {
     width: 57%;
     
 }
- 
+
+
 /* Style each of the sides
 with a fixed width and height */
  
@@ -598,7 +598,7 @@ with a fixed width and height */
      
     /* Calculate the total width on the
   basis of number of slides */
-    width: calc(728px * 4); 
+     width: calc(728px * 5);  
      
     /* Specify the animation with the
   duration and speed */
@@ -626,4 +626,7 @@ for the slideshow */
     80% {
         margin-left: calc(-728px * 3);
     }
+    90% {
+        margin-left: calc(-728px * 4);
+    } 
 }
