@@ -130,6 +130,19 @@ body {
 
 /*navbar 2 end*/
 /*navbar3 start*/
+.slideleft{background-color: #333333;height:35px;display:flex;padding-left:18vh}
+#bh{width:150vh;color:yellow;font-family: 'lato', sans-serif;font-size:1.2rem;padding-top:7px;}
+.slideleft img{border-radius:30px;height:30px;margin-top:3px}
+#btnviewall{height:25px;color:blue;margin-top:5px;cursor:pointer;}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -148,19 +161,55 @@ body {
 .nav_menu_about ul li a{text-decoration: none;color:black}
 .nav_menu_about ul li a:hover{text-decoration: none;color:blue;text-decoration:underline black;}
 
-.nav_menu_examination{background-color: aquamarine;width:25%;}
-#examlogo{height:50px}
-#examlogo img{height:100%}
+.nav_menu_examination{background-color: aliceblue;width:25%;line-height: 25px;}
+.allvk{width:280px;margin-left:18px}
+#examlogo{height:50px;}
+#examlogo img{height:80%;margin-top:5px;margin-right:10px}
+.stair{display:flex;background-color:#255e90;margin-top:25px;justify-content:space-between;align-items:center;width:280px;}
+#examal{color:white;font-size:2rem;font-family: 'Source Sans Pro', sans-serif;padding-top:5px;margin-left:10px} 
+.allexamca a{color:black;text-decoration:none;font-size: 1.2rem;font-family: 'Source Sans Pro', sans-serif;}
+.allexamca a:hover{color:blue;text-decoration: underline ;text-decoration-color:black;}
+.nav_menu_recquirement{background-color: rgb(249, 252, 250);width:25%}
+#forthco{color:rgb(19, 19, 100);font-size:1.4rem;font-family: 'Source Sans Pro', sans-serif;margin:10px 0px}
+.allvk ul{font-size:1.2rem;font-family: 'Source Sans Pro', sans-serif}
+.allvk ul li a{text-decoration:none;color:black;}
+.allvk ul li{list-style:square;color:rgb(12, 7, 162)}
+.allvk ul li a:hover{color:blue;text-decoration: underline;text-decoration-color: black;}
+#allexa{text-align:end;margin-top:20px;font-size:1.2rem;font-family: 'Source Sans Pro', sans-serif}
 
-
-.nav_menu_recquirement{background-color: beige;width:25%}
-#reclogo{height:20px}
+.allvikas{margin-left:18px;font-size:1.2rem;line-height:28px} 
+#twoupb{display:flex;justify-content: space-between;}
+.nav_menu_recquirement ul li a{text-decoration:none;color:black;}
+.nav_menu_recquirement ul li{list-style:square;color:rgb(12, 7, 162);font-family: 'Source Sans Pro', sans-serif}
+/* #aboutupsc{font-weight: 800;font-size: 1.9rem;font-family: 'Source Sans Pro', sans-serif;color:#205786}
+#nav_menu_tw{display:flex;justify-content: space-between;align-items:center;} */
+#reclogo{height:30px;margin-right:30px}
 #reclogo img{height:100%}
-.nav_menu_recquirement li{list-style:none}
-.nav_menu_recquirement li:before{content: '\00BB';}
 
-.all{background-color: darkgray;width:25%}
 
+.allextra{width:25%;}
+.noteal{display:inline-grid;}
+    
+#examnoti img{width:35px;height:40px;border-radius:20px}
+#examnoti{background-color: #21415d;}
+#exas img{width:35px;height:40px}
+#exas{background-color: white;}
+#exaw img{width:35px;height:40px;border-radius:30px;}
+#exaw{background-color: coral;}
+#examnot img{width:35px;height:40px}
+#examnotn img{width:35px;height:40px}
+#examnotn{background-color:#70b8f7}
+#vikra img{width:35px;height:40px}
+#vikra{background-color: #0af17a;}
+#vikrase img{width:35px;height:40px}
+.noteal a {
+    border: 1.2px solid #2C4963;
+    text-align: center;
+    text-decoration: none;width:270px;display:flex;height:50px;
+    color: black;
+    background-color: rgb(233, 232, 232);
+    margin:5px 0px
+}
 
 .extrat {
     background-color: #205786;
@@ -517,3 +566,64 @@ body {
 
 
 /* .justify{background-color: rgb(0, 255, 42);border:2px solid red;height:200px;width:200px;text-align:justify} */
+
+ 
+/* Styling the area of the slides */
+ .allslidei{background-color: #205786;height:500px;display:flex;}
+#vgh{width:43%;font-size: 1.1rem;}
+#upsl{height:88%;margin-left:20px}
+#vgh ul li a{color:white;text-decoration: none;font-family: 'lato', sans-serif;}
+
+#vgh ul li a:hover{text-decoration:underline;}
+
+#slideshow {
+    overflow: hidden;
+   
+    width: 57%;
+    
+}
+ 
+/* Style each of the sides
+with a fixed width and height */
+ 
+.slide {
+    float: left;
+    height: 500px;
+    width: 728px;
+}
+ .slide img{width:100%;height:100%}
+/* Add animation to the slides */
+ 
+.slide-wrapper {
+     
+    /* Calculate the total width on the
+  basis of number of slides */
+    width: calc(728px * 4); 
+     
+    /* Specify the animation with the
+  duration and speed */
+    animation: slide 18s ease infinite;
+}
+ 
+
+ 
+/* Define the animation
+for the slideshow */
+ 
+@keyframes slide {
+     
+    /* Calculate the margin-left for
+  each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
